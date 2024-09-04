@@ -2,8 +2,8 @@ import mapboxgl from 'mapbox-gl';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Subject } from 'rxjs';
 
-mapboxgl.accessToken = import.meta.env.VITE_MAP_API_KEY;
-// mapboxgl.accessToken = 'pk.eyJ1IjoiZWdyYW5lcm9mMSIsImEiOiJjbHk4cHFrOWYwZmE5MmpzYmlnZGc5NW0zIn0.ZmtZljg63yCbHkaowaZIGg';
+// mapboxgl.accessToken = import.meta.env.VITE_MAP_API_KEY;
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWdyYW5lcm9mMSIsImEiOiJjbHk4cHFrOWYwZmE5MmpzYmlnZGc5NW0zIn0.ZmtZljg63yCbHkaowaZIGg';
 
 export const useMapbox = (startingPoint) => {
 
